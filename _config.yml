@@ -1,0 +1,10 @@
+title: "Nelanutala Dheerajnag"
+description: "Finance, Strategy and Financial Modeling"
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Nelanutala Dheerajnag"
+  bio: "Transaction Advisory | Financial Modeling | Healthcare Strategy"
