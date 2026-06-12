@@ -11,6 +11,6 @@ header:
       url: "/case-studies/"
 ---
 
-Strategy consultant with global experience advising Fortune 500 biopharma clients on transaction advisory and partnership strategy.
+Finance and strategy professional with experience supporting M&A transactions, commercial due diligence, and investment decisions across the global biopharmaceutical industry.
 
-I specialize in due diligence, financial modeling, valuation, and investment decision support.
+I specialize in financial modeling, valuation, forecasting, and structured problem solving to support high-stakes strategic decisions.
