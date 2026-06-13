@@ -17,7 +17,7 @@ header:
 
 ## How I Work
 
-The work I have found most rewarding sits at the point where uncertainty meets consequence—situations where important decisions need to be made despite incomplete information, competing viewpoints, and limited time.
+The work I have found most rewarding sits at the point where uncertainty meets consequence, situations where important decisions need to be made despite incomplete information, competing viewpoints, and limited time.
 
 I am less interested in analysis for its own sake than in what it enables:
 
