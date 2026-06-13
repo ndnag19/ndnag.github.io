@@ -1,5 +1,8 @@
-title: "Nelanutala Dheerajnag"
-description: "Finance, Strategy and Financial Modeling"
+```yaml
+title: "Dheerajnag Nelanutala"
+
+description: "Finance and strategy professional helping organizations navigate complex decisions through commercial diligence, valuation, and financial modeling."
+
 url: "https://ndnag.com"
 baseurl: ""
 
@@ -9,5 +12,6 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Nelanutala Dheerajnag"
-  excerpt: "Transaction Advisory | Financial Modeling | Healthcare Strategy"
+  name: "Dheerajnag Nelanutala"
+  excerpt: "Helping organizations navigate complex decisions through structured thinking and practical execution."
+```
