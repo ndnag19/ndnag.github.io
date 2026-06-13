@@ -1,5 +1,6 @@
 ---
 title: "Experience"
+layout: single
 permalink: /experience/
 ---
 
