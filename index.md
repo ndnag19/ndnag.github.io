@@ -14,7 +14,6 @@ header:
     - label: "Selected Work"
       url: "/selected-work/"
 
----
 problem_principles:
   - title: "Decisions over admiration"
     excerpt: "Models should help teams commit to a course of action."
@@ -27,6 +26,8 @@ problem_principles:
 
   - title: "Judgment over certainty"
     excerpt: "Important decisions rarely wait for complete information."
+---
+
 
 Finance and strategy professional with experience supporting investment decisions through commercial diligence, valuation, and financial modeling within the global biopharmaceutical industry.
 
