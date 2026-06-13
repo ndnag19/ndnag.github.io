@@ -1,23 +1,20 @@
 ---
 layout: splash
-title: "Nelanutala Dheerajnag"
-excerpt: "Transaction Advisory • Financial Modeling • Healthcare Strategy"
+title: "Dheerajnag Nelanutala"
+
+excerpt: "Finance and strategy professional helping organizations navigate complex decisions through commercial diligence, valuation, and financial modeling."
+
 header:
   overlay_color: "#000"
+
   actions:
-    - label: "About"
-      url: "/about/"
+    - label: "Experience"
+      url: "/experience/"
+
     - label: "Selected Work"
       url: "/selected-work/"
 ---
 
-Finance and strategy professional with experience supporting M&A transactions, commercial due diligence, and investment decisions across the global biopharmaceutical industry.
+I enjoy working on problems where the path forward is not immediately obvious. Whether evaluating opportunities, building decision frameworks, or navigating uncertainty, my approach is grounded in structured thinking and practical execution.
 
-I specialize in financial modeling, valuation, forecasting, and structured problem solving to support high-stakes strategic decisions.
-
-## At a Glance
-
-- **10+** M&A and commercial diligence engagements
-- **$1B+** aggregate transaction value supported
-- **20+** target assets evaluated across acquisition and partnership structures
-- Experience advising **Fortune 500** biopharmaceutical organizations
+Over the years, I have found that the most valuable contributions often extend beyond analysis itself. They involve building systems that simplify complexity, creating environments where teams can succeed, and helping organizations move forward with confidence.
