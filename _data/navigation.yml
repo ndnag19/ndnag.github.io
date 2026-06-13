@@ -1,18 +1,9 @@
 main:
-  - title: "About"
-    url: /about/
-
   - title: "Experience"
     url: /experience/
 
-  - title: "Case Studies"
-    url: /case-studies/
+  - title: "Selected Work"
+    url: /selected-work/
 
-  - title: "Insights"
-    url: /insights/
-
-  - title: "Resources"
-    url: /resources/
-
-  - title: "Contact"
-    url: /contact/
+  - title: "About"
+    url: /about/
