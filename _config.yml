@@ -6,6 +6,7 @@ url: "https://ndnag.com"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
 
 sass:
   style: compressed
