@@ -1,1 +1,0 @@
-# ndnag.github.io
