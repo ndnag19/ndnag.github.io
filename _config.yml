@@ -7,6 +7,9 @@ baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
 
+sass:
+  style: compressed
+
 plugins:
   - jekyll-include-cache
 
