@@ -15,6 +15,18 @@ header:
       url: "/selected-work/"
 ---
 
-I enjoy working on problems where the path forward is not immediately obvious. Whether evaluating opportunities, building decision frameworks, or navigating uncertainty, my approach is grounded in structured thinking and practical execution.
+## How I Work
 
-Over the years, I have found that the most valuable contributions often extend beyond analysis itself. They involve building systems that simplify complexity, creating environments where teams can succeed, and helping organizations move forward with confidence.
+The work I have found most rewarding sits at the point where uncertainty meets consequence—situations where important decisions need to be made despite incomplete information, competing viewpoints, and limited time.
+
+I am less interested in analysis for its own sake than in what it enables:
+
+- **Models should drive decisions, not admiration.** Their value lies in helping teams commit to a course of action.
+
+- **Frameworks should simplify, not complicate.** Their purpose is to make difficult choices clearer.
+
+- **Expertise should create capability, not dependency.** Knowledge compounds when it enables others to succeed.
+
+- **Important decisions rarely wait for perfect information.** Progress depends on making thoughtful choices under uncertainty.
+
+This perspective has shaped the kinds of problems I choose to work on and the capabilities I have developed over time.
