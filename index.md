@@ -15,12 +15,15 @@ header:
       url: "/selected-work/"
 ---
 
-
-From evaluating investments to navigating strategic choices, I use structured thinking to bring clarity to complex problems.
+<div class="hero-supporting-text">
+  From evaluating investments to navigating strategic choices, I use structured thinking to bring clarity to complex problems. 
+</div>
 
 ## How I Approach Problems
 
-The work I have found most rewarding sits at the point where uncertainty meets consequence, situations where important decisions need to be made despite incomplete information, competing viewpoints, and limited time.
+The work I have found most rewarding sits at the point where uncertainty meets consequence.
+
+Important decisions often need to be made despite incomplete information, competing viewpoints, and limited time.
 
 I am less interested in analysis for its own sake than in what it enables.
 
@@ -48,6 +51,6 @@ I am less interested in analysis for its own sake than in what it enables.
 
 </div>
 
-*This perspective has shaped the kinds of problems I choose to work on and the capabilities I have developed over time.*
-
-## Areas of Focus
+<p class="bridge-text">
+This perspective has shaped the kinds of problems I choose to work on and the capabilities I have developed over time.
+</p>
