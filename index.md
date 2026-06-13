@@ -2,7 +2,7 @@
 layout: splash
 title: "Dheerajnag Nelanutala"
 
-excerpt: "Helping organizations navigate important decisions through structured thinking and practical execution."
+excerpt: "Helping organizations make better decisions under uncertainty."
 
 header:
   overlay_color: "#000"
@@ -16,7 +16,7 @@ header:
 ---
 
 
-Finance and strategy professional with experience supporting investment decisions through commercial diligence, valuation, and financial modeling within the global biopharmaceutical industry.
+From evaluating investments to navigating strategic choices, I use structured thinking to bring clarity to complex problems.
 
 ## How I Approach Problems
 
@@ -27,22 +27,22 @@ I am less interested in analysis for its own sake than in what it enables.
 <div class="principles-grid">
 
   <div class="principle-card">
-    <h3>Decisions over admiration</h3>
+    <h3>Decisions Drive Value</h3>
     <p>Models should help teams commit to a course of action.</p>
   </div>
 
   <div class="principle-card">
-    <h3>Simplicity over complexity</h3>
-    <p>Frameworks should make difficult choices clearer.</p>
+    <h3>Simplicity Creates Clarity</h3>
+    <p>Frameworks should make difficult choices easier to navigate.</p>
   </div>
 
   <div class="principle-card">
-    <h3>Capability over dependency</h3>
-    <p>Knowledge should enable others to succeed independently.</p>
+    <h3>Capability Compounds</h3>
+    <p>Knowledge creates more value when it enables others to succeed.</p>
   </div>
 
   <div class="principle-card">
-    <h3>Judgment over certainty</h3>
+    <h3>Judgment Enables Progress</h3>
     <p>Important decisions rarely wait for complete information.</p>
   </div>
 
