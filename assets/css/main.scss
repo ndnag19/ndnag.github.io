@@ -1,14 +1,77 @@
 ---
-# Only the main Sass file needs front matter
 ---
 
 @import "minimal-mistakes";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Typography */
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #374151;
+}
+
+.page__hero .page__title {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+.page__hero .page__lead {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+.hero-supporting-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #6b7280;
+    max-width: 700px;
+    margin-bottom: 4rem;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn--primary {
+    background-color: #1f3a5f;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Content */
+
+.page__content {
+    max-width: 850px;
+}
+
+.page__content p {
+    line-height: 1.8;
+}
+
+.page__content h2 {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Principle Cards */
 
 .principles-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
 
 .principle-card {
@@ -16,25 +79,61 @@
     border-radius: 12px;
     padding: 1.25rem;
     background: #ffffff;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-    transition: transform 0.2s ease,
-                box-shadow 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.principle-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 10px 20px rgba(0,0,0,0.08);
 }
 
 .principle-card h3 {
     margin-top: 0;
     margin-bottom: 0.75rem;
+
     font-size: 1.2rem;
     font-weight: 700;
+
     letter-spacing: 0.02em;
 }
 
-.principle-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+.principle-card p {
+    margin-bottom: 0;
+    color: #6b7280;
 }
 
+/* Bridge */
+
+.bridge-text {
+    text-align: center;
+
+    font-style: italic;
+
+    color: #6b7280;
+
+    max-width: 700px;
+
+    margin: 3rem auto;
+}
+
+/* Mobile */
+
 @media (max-width: 768px) {
+
+    .page__hero .page__title {
+        font-size: 2.3rem;
+    }
+
+    .page__hero .page__lead {
+        font-size: 1.2rem;
+    }
+
     .principles-grid {
         grid-template-columns: 1fr;
     }
