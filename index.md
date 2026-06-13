@@ -13,19 +13,6 @@ header:
 
     - label: "Selected Work"
       url: "/selected-work/"
-
-problem_principles:
-  - title: "Decisions over admiration"
-    excerpt: "Models should help teams commit to a course of action."
-
-  - title: "Simplicity over complexity"
-    excerpt: "Frameworks should make difficult choices clearer."
-
-  - title: "Capability over dependency"
-    excerpt: "Knowledge should enable others to succeed independently."
-
-  - title: "Judgment over certainty"
-    excerpt: "Important decisions rarely wait for complete information."
 ---
 
 
@@ -37,7 +24,29 @@ The work I have found most rewarding sits at the point where uncertainty meets c
 
 I am less interested in analysis for its own sake than in what it enables.
 
-{% include feature_row id="problem_principles" type="left" %}
+<div class="principles-grid">
+
+  <div class="principle-card">
+    <h3>Decisions over admiration</h3>
+    <p>Models should help teams commit to a course of action.</p>
+  </div>
+
+  <div class="principle-card">
+    <h3>Simplicity over complexity</h3>
+    <p>Frameworks should make difficult choices clearer.</p>
+  </div>
+
+  <div class="principle-card">
+    <h3>Capability over dependency</h3>
+    <p>Knowledge should enable others to succeed independently.</p>
+  </div>
+
+  <div class="principle-card">
+    <h3>Judgment over certainty</h3>
+    <p>Important decisions rarely wait for complete information.</p>
+  </div>
+
+</div>
 
 *This perspective has shaped the kinds of problems I choose to work on and the capabilities I have developed over time.*
 
