@@ -7,8 +7,8 @@ header:
   actions:
     - label: "About"
       url: "/about/"
-    - label: "Case Studies"
-      url: "/case-studies/"
+    - label: "Selected Work"
+      url: "/selected-work/"
 ---
 
 Finance and strategy professional with experience supporting M&A transactions, commercial due diligence, and investment decisions across the global biopharmaceutical industry.
