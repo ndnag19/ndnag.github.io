@@ -5,7 +5,7 @@ title: "Dheerajnag Nelanutala"
 excerpt: "Helping organizations make better decisions under uncertainty."
 
 header:
-  overlay_color: "#000"
+  overlay_color: "#23395B"
 
   actions:
     - label: "Experience"
