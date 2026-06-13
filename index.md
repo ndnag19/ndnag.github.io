@@ -18,7 +18,6 @@ header:
 <div class="hero-supporting-text">
   From evaluating investments to navigating strategic choices, I use structured thinking to bring clarity to complex problems. 
 </div>
-
 ## How I Approach Problems
 
 The work I have found most rewarding sits at the point where uncertainty meets consequence.
