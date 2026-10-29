@@ -2,8 +2,11 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Experience"
-    url: /experience/
-
-  - title: "Selected Work"
+  - title: "Work & Projects"
     url: /selected-work/
+
+  - title: "Writing"
+    url: /articles/
+
+  - title: "Say hello"
+    url: /#contact

@@ -4,9 +4,17 @@ description: "Helping organizations make better decisions under uncertainty."
 
 url: "https://ndnag.com"
 baseurl: ""
+permalink: /articles/:title/
+
+include:
+  - _pages
 
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
+
+collections:
+  projects:
+    output: false
 
 sass:
   style: compressed
