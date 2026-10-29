@@ -184,7 +184,7 @@ body.layout--single.centered-page.projects-page #main > .page { max-width: 1240p
 }
 .about-hero__copy { max-width: 560px; }
 .about-hero__copy .eyebrow { margin-bottom: 1rem; }
-.about-hero__copy h2 {
+body.layout--single.about-page .page__content .about-hero__copy h2 {
   margin: 0 0 1.25rem; color: var(--ink); font-family: var(--serif);
   font-size: clamp(2.4rem, 4vw, 3.45rem); font-weight: 400; letter-spacing: -.035em; line-height: 1.08;
 }
@@ -204,7 +204,7 @@ body.layout--single.centered-page.projects-page #main > .page { max-width: 1240p
 .about-interests { margin: 3.5rem 0 4rem; border-top: 1px solid var(--line); padding-top: 2.5rem; }
 .about-interests__heading { max-width: 620px; margin-bottom: 1.5rem; }
 .about-interests__heading .eyebrow { margin-bottom: .55rem; }
-.about-interests__heading h2 {
+body.layout--single.about-page .page__content .about-interests__heading h2 {
   margin: 0; color: var(--ink); font-family: var(--serif); font-size: clamp(2rem, 3.4vw, 2.8rem);
   font-weight: 400; letter-spacing: -.03em; line-height: 1.12;
 }
@@ -267,7 +267,7 @@ body.layout--single.centered-page.projects-page #main > .page { max-width: 1240p
   .notes-card__visual { min-height: 255px; }
   .about-section { grid-template-columns: 1fr; gap: 1.35rem; }
   .about-hero { grid-template-columns: 1fr; gap: 1.75rem; margin: .25rem 0 2.5rem; }
-  .about-hero__copy h2 { font-size: 2.55rem; }
+  body.layout--single.about-page .page__content .about-hero__copy h2 { font-size: 2.55rem; }
   .about-hero__portrait { width: min(80%, 340px); justify-self: center; }
   .about-interests { margin: 2.75rem 0 3.25rem; padding-top: 2rem; }
   .interest-grid { grid-template-columns: 1fr; gap: .7rem; }
