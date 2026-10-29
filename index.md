@@ -1,7 +1,9 @@
 ---
 layout: single
 title: false
-classes: wide home-page
+classes:
+  - wide
+  - home-page
 permalink: /
 author_profile: false
 ---
@@ -101,9 +103,9 @@ author_profile: false
       <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C20.5 2 22 3.5 22 7.8v8.4c0 4.3-1.5 5.8-5.8 5.8H7.8C3.5 22 2 20.5 2 16.2V7.8C2 3.5 3.5 2 7.8 2Zm.2 2C4.9 4 4 4.9 4 8v8c0 3.1.9 4 4 4h8c3.1 0 4-.9 4-4V8c0-3.1-.9-4-4-4H8Zm4 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/></svg>
       <span>Instagram</span>
     </a>
-    <a class="social-link social-link--email" href="mailto:n.dheerajnag@outlook.com" aria-label="Email me at n.dheerajnag@outlook.com">
+    <a class="social-link social-link--email" href="mailto:n.dheerajnag@outlook.com" aria-label="Send me an email">
       <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.75h18a1.75 1.75 0 0 1 1.75 1.75v9a1.75 1.75 0 0 1-1.75 1.75H3A1.75 1.75 0 0 1 1.25 16.5v-9A1.75 1.75 0 0 1 3 5.75Zm0 1.75v.22l9 6.04 9-6.04V7.5H3Zm18 2.32-8.51 5.71a.88.88 0 0 1-.98 0L3 9.82v6.68h18V9.82Z"/></svg>
-      <span>n.dheerajnag@outlook.com</span>
+      <span>E-mail</span>
     </a>
   </div>
 </section>
