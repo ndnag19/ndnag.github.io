@@ -24,7 +24,7 @@ body { background: var(--paper); color: var(--ink); font-family: var(--sans); }
 a { color: var(--green-dark); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--clay); outline-offset: 4px; border-radius: 3px; }
 
-.masthead { border-bottom: 1px solid rgba(74, 83, 67, .12); background: rgba(251, 248, 242, .96); }
+.masthead { position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid rgba(74, 83, 67, .12); background: rgba(251, 248, 242, .96); box-shadow: 0 5px 20px rgba(40, 53, 47, .045); }
 .masthead__inner-wrap { max-width: 1280px; padding: .75rem 2rem; }
 .site-title { color: var(--ink) !important; font-family: var(--serif); font-size: 1.35rem; font-weight: 400; letter-spacing: -.02em; }
 .site-subtitle { display: none; }
@@ -35,6 +35,10 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--clay); outline-
 .greedy-nav .hidden-links a { color: var(--ink); }
 .greedy-nav .hidden-links a:hover { background: var(--paper-deep); }
 .greedy-nav__toggle { background: var(--green-dark); }
+.masthead .greedy-nav .visible-links a[href*="linkedin.com"],
+.masthead .greedy-nav .visible-links a[href*="x.com"],
+.masthead .greedy-nav .visible-links a[href*="instagram.com"] { display: inline-flex; min-width: 42px; min-height: 42px; align-items: center; justify-content: center; padding: .5rem; }
+.header-social-icon { display: block; width: 18px; height: 18px; fill: currentColor; }
 .page { margin: 0 auto; max-width: 1280px; padding: 0 2rem; }
 .page__inner-wrap { max-width: none; }
 .page__content { max-width: none; padding: 0; }
