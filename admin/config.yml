@@ -1,0 +1,54 @@
+backend:
+  name: turbo-github
+  turbo_site_id: 08b03626-6ec1-4dae-98e0-ec4bcd756870
+  branch: main
+
+site_url: https://ndnag.com
+display_url: https://ndnag.com
+locale: en
+media_folder: assets/images/uploads
+public_folder: /assets/images/uploads
+
+collections:
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: _posts
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Publish date, name: date, widget: datetime, format: "YYYY-MM-DD", time_format: false }
+      - { label: Short introduction, name: excerpt, widget: text }
+      - { label: Cover image, name: image, widget: image, required: false }
+      - { label: Layout, name: layout, widget: hidden, default: single }
+      - { label: Article, name: body, widget: markdown }
+
+  - name: projects
+    label: Projects & Products
+    label_singular: Project or product
+    folder: _projects
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{slug}}"
+    fields:
+      - { label: Name, name: title, widget: string }
+      - { label: Category, name: category, widget: string, hint: "For example, PowerPoint add-in or Excel tool." }
+      - { label: Short description, name: excerpt, widget: text }
+      - { label: Details, name: body, widget: markdown, required: false }
+      - { label: Project or product link, name: url, widget: string }
+      - { label: Link label, name: link_label, widget: string, default: "Explore project" }
+      - { label: Display order, name: order, widget: number, value_type: int, min: 1, default: 10, hint: "Lower numbers appear first. The homepage features the first three." }
+      - label: Card color
+        name: tone
+        widget: select
+        options: [green, clay, blue]
+        default: green
+      - label: Card illustration
+        name: symbol
+        widget: select
+        options: [pan, gantt, scenario]
+        default: scenario
