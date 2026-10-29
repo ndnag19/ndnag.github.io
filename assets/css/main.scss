@@ -25,7 +25,8 @@ a { color: var(--green-dark); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--clay); outline-offset: 4px; border-radius: 3px; }
 
 .masthead { position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid rgba(74, 83, 67, .12); background: rgba(251, 248, 242, .96); box-shadow: 0 5px 20px rgba(40, 53, 47, .045); }
-.masthead__inner-wrap { max-width: 1280px; padding: .75rem 2rem; }
+.masthead__inner-wrap { display: flex; align-items: center; justify-content: space-between; gap: .75rem; max-width: 1280px; margin: 0 auto; padding: .75rem 2rem; }
+.masthead__menu { flex: 1 1 auto; min-width: 0; }
 .site-title { color: var(--ink) !important; font-family: var(--serif); font-size: 1.35rem; font-weight: 400; letter-spacing: -.02em; }
 .site-subtitle { display: none; }
 .greedy-nav { background: transparent; font-family: var(--sans); font-size: .9rem; }
@@ -35,9 +36,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--clay); outline-
 .greedy-nav .hidden-links a { color: var(--ink); }
 .greedy-nav .hidden-links a:hover { background: var(--paper-deep); }
 .greedy-nav__toggle { background: var(--green-dark); }
-.masthead .greedy-nav .visible-links a[href*="linkedin.com"],
-.masthead .greedy-nav .visible-links a[href*="x.com"],
-.masthead .greedy-nav .visible-links a[href*="instagram.com"] { display: inline-flex; min-width: 42px; min-height: 42px; align-items: center; justify-content: center; padding: .5rem; }
+.masthead__social { display: flex; flex: 0 0 auto; align-items: center; gap: .2rem; }
+.masthead__social-link { display: grid; width: 40px; height: 40px; place-items: center; border-radius: 50%; color: var(--ink-soft); transition: color .2s ease, background-color .2s ease; }
+.masthead__social-link:hover { background: var(--paper-deep); color: var(--ink); }
 .header-social-icon { display: block; width: 18px; height: 18px; fill: currentColor; }
 .page { margin: 0 auto; max-width: 1280px; padding: 0 2rem; }
 .page__inner-wrap { max-width: none; }
@@ -185,7 +186,11 @@ body.layout--single.home-page .page__content {
 }
 
 @media (max-width: 640px) {
-  .masthead__inner-wrap { padding: .65rem 1rem; }
+  .masthead__inner-wrap { gap: .35rem; padding: .65rem 1rem; }
+  .site-title { font-size: 1.08rem; }
+  .masthead__social { gap: 0; }
+  .masthead__social-link { width: 32px; height: 32px; }
+  .header-social-icon { width: 16px; height: 16px; }
   .page { padding: 0 1.15rem; }
   .home-hero { grid-template-columns: 1fr; gap: .4rem; padding: 3.4rem 0 3rem; }
   .home-hero h1 { max-width: 520px; font-size: clamp(3.2rem, 15vw, 4.3rem); }
@@ -207,6 +212,11 @@ body.layout--single.home-page .page__content {
   .home-contact { gap: 1.5rem; margin-bottom: 3.5rem; border-radius: 16px; padding: 2rem 1.35rem; }
   .home-contact__links { justify-content: flex-start; gap: .55rem; }
   .home-contact__links a { padding: .65rem .85rem; font-size: .84rem; }
+}
+
+@media (max-width: 380px) {
+  .site-title { font-size: 1rem; }
+  .masthead__social-link { width: 28px; height: 28px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
