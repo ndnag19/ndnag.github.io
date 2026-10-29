@@ -1,6 +1,8 @@
 ---
 title: "About"
 layout: single
+classes:
+  - centered-page
 permalink: /about/
 ---
 

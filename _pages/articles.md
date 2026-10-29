@@ -1,6 +1,8 @@
 ---
 title: "Notes & Articles"
 layout: single
+classes:
+  - centered-page
 permalink: /articles/
 ---
 

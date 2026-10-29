@@ -1,6 +1,9 @@
 ---
 title: "Work & Projects"
 layout: single
+classes:
+  - centered-page
+  - projects-page
 permalink: /selected-work/
 ---
 

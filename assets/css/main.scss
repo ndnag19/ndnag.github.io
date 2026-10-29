@@ -73,7 +73,7 @@ body.layout--single.home-page .page__content {
 .eyebrow__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--clay); box-shadow: 0 0 0 4px rgba(198, 124, 89, .13); }
 .home-hero h1 { max-width: 650px; margin: 0; color: var(--ink); font-family: var(--serif); font-size: clamp(3.25rem, 5.7vw, 5.5rem); font-weight: 400; letter-spacing: -.045em; line-height: .99; }
 .home-hero h1 em { color: var(--green); font-weight: 400; }
-.home-hero__lead { max-width: 580px; margin: 1.7rem 0 0; color: var(--ink-soft); font-size: clamp(1.05rem, 1.5vw, 1.2rem); line-height: 1.8; }
+.home-hero__lead { max-width: 580px; margin: 2.5rem 0 0; color: var(--ink-soft); font-size: clamp(1.05rem, 1.5vw, 1.2rem); line-height: 1.8; }
 .home-hero__actions { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem; margin-top: 2rem; }
 .button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: .7rem; border: 1px solid transparent; border-radius: 999px; padding: .7rem 1.2rem; font-size: .92rem; font-weight: 700; text-decoration: none; transition: transform .2s ease, background-color .2s ease, box-shadow .2s ease; }
 .button:hover { transform: translateY(-2px); text-decoration: none; }
@@ -81,7 +81,7 @@ body.layout--single.home-page .page__content {
 .button--solid:hover { background: #344434; box-shadow: 0 10px 23px rgba(67, 83, 67, .2); }
 .button--quiet { border-color: var(--line); color: var(--ink) !important; }
 .button--quiet:hover, .button--outline:hover { background: var(--paper-deep); }
-.home-hero__aside { margin: 1.3rem 0 0; color: #7a7f75; font-size: .9rem; }
+.home-hero__aside { margin: 2.2rem 0 0; color: #7a7f75; font-size: .9rem; }
 .home-hero__art { position: relative; width: min(100%, 500px); justify-self: end; }
 .home-hero__art img { display: block; width: 100%; aspect-ratio: 5 / 5.8; border: 8px solid #f2ece1; border-radius: 48% 48% 18px 18px; box-shadow: 0 22px 55px rgba(53, 50, 40, .13); object-fit: cover; object-position: center 34%; }
 .art-note { position: absolute; right: -1rem; bottom: 7%; display: flex; align-items: center; gap: .65rem; border: 1px solid rgba(67, 83, 67, .1); border-radius: 14px; padding: .8rem 1rem; background: rgba(255, 253, 247, .93); box-shadow: 0 10px 30px rgba(56, 52, 42, .1); color: var(--ink); font-family: var(--serif); font-size: 1rem; line-height: 1.2; transform: rotate(-3deg); }
@@ -162,6 +162,21 @@ body.layout--single.home-page .page__content {
 .layout--single:not(.home-page) .page__content { max-width: 820px; padding-bottom: 4rem; }
 .layout--single:not(.home-page) .page__content h2 { margin-top: 3rem; color: var(--ink); font-family: var(--serif); font-size: 2rem; font-weight: 400; }
 .layout--single:not(.home-page) .page__content a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+body.layout--single.centered-page #main {
+  box-sizing: border-box; width: 100%; max-width: none; margin: 0 auto;
+  padding: 0 clamp(1rem, 4vw, 3rem);
+}
+body.layout--single.centered-page #main > .sidebar { display: none; }
+body.layout--single.centered-page #main > .page {
+  display: block; float: none; box-sizing: border-box; width: 100%; max-width: 920px;
+  margin: 0 auto; padding: 0;
+}
+body.layout--single.centered-page .page__inner-wrap,
+body.layout--single.centered-page .page__content {
+  float: none; width: 100%; max-width: none; margin: 0;
+}
+body.layout--single.centered-page .page__content { padding: 0 0 4rem; }
+body.layout--single.centered-page.projects-page #main > .page { max-width: 1240px; }
 .article-list { margin-top: 3rem; border-top: 1px solid var(--line); }
 .article-list__item { padding: 2rem 0; border-bottom: 1px solid var(--line); }
 .article-list__item .eyebrow { margin-bottom: .6rem; }
@@ -194,7 +209,8 @@ body.layout--single.home-page .page__content {
   .page { padding: 0 1.15rem; }
   .home-hero { grid-template-columns: 1fr; gap: .4rem; padding: 3.4rem 0 3rem; }
   .home-hero h1 { max-width: 520px; font-size: clamp(3.2rem, 15vw, 4.3rem); }
-  .home-hero__lead { margin-top: 1.25rem; font-size: 1.02rem; }
+  .home-hero__lead { margin-top: 1.8rem; font-size: 1.02rem; }
+  .home-hero__aside { margin-top: 1.8rem; }
   .home-hero__aside { font-size: .84rem; }
   .home-hero__art { width: min(90%, 370px); justify-self: center; margin-top: .5rem; }
   .art-note { right: .1rem; bottom: 8%; padding: .65rem .8rem; font-size: .88rem; }
