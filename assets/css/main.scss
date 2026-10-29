@@ -175,6 +175,11 @@ body.layout--single.home-page .page__content {
   .home-contact { align-items: flex-start; flex-direction: column; }
 }
 
+@media (max-width: 760px) {
+  .home-hero { grid-template-columns: 1fr; gap: 1rem; }
+  .home-hero__art { width: min(82%, 420px); justify-self: center; margin-top: .5rem; }
+}
+
 @media (max-width: 640px) {
   .masthead__inner-wrap { padding: .65rem 1rem; }
   .page { padding: 0 1.15rem; }
