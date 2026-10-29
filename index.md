@@ -97,7 +97,7 @@ author_profile: false
       <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19 9.46 12.504H16.595l-5.8-7.584-6.636 7.584h-3.68l8.6-9.83L0 1.153h7.595l5.242 6.93zm-1.29 19.49h2.039L6.486 3.24H4.298z"/></svg>
       <span>X</span>
     </a>
-    <a class="social-link" href="https://www.instagram.com/ndnag19/" target="_blank" rel="noopener noreferrer" aria-label="Follow me on Instagram">
+    <a class="social-link" href="https://www.instagram.com/nd_nag/" target="_blank" rel="noopener noreferrer" aria-label="Follow me on Instagram">
       <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C20.5 2 22 3.5 22 7.8v8.4c0 4.3-1.5 5.8-5.8 5.8H7.8C3.5 22 2 20.5 2 16.2V7.8C2 3.5 3.5 2 7.8 2Zm.2 2C4.9 4 4 4.9 4 8v8c0 3.1.9 4 4 4h8c3.1 0 4-.9 4-4V8c0-3.1-.9-4-4-4H8Zm4 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.5-3a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/></svg>
       <span>Instagram</span>
     </a>
