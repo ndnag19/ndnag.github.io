@@ -42,7 +42,7 @@ author_profile: false
         </div>
         <h3>{{ project.title }}</h3>
         <p>{{ project.excerpt }}</p>
-        <a class="text-link" href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.link_label }} <span aria-hidden="true">↗</span></a>
+        <a class="text-link" href="{{ project.external_url }}" target="_blank" rel="noopener noreferrer">{{ project.link_label }} <span aria-hidden="true">↗</span></a>
       </article>
     {% endfor %}
   </div>
