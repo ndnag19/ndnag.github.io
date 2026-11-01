@@ -21,6 +21,7 @@ defaults:
       path: "_posts"
       type: "posts"
     values:
+      published: true
       classes:
         - article-page
 

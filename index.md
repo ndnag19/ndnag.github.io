@@ -52,8 +52,7 @@ author_profile: false
   <div class="notes-card">
     <div class="notes-card__copy">
       <p class="eyebrow">A note I’m thinking through</p>
-      {% assign articles_by_date = site.posts | sort: "date" %}
-      {% assign featured_article = articles_by_date | last %}
+      {% assign featured_article = site.posts | first %}
       {% if featured_article %}
         <h2 id="notes-title">{{ featured_article.title }}</h2>
         <p>{{ featured_article.excerpt | strip_html | strip }}</p>
