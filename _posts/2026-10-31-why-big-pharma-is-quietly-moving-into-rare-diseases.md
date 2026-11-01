@@ -1,5 +1,5 @@
 ---
-title: Why Big Pharma Is Quietly Moving Into Rare Diseases
+title: Why Big Pharma Is Quietly Moving Into Rare Diseases?
 date: 2026-11-01
 excerpt: Most healthcare headlines this year are about weight-loss drugs and big
   cancer partnerships. Meanwhile, rare disease deals have been piling up.
