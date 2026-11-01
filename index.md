@@ -32,7 +32,7 @@ author_profile: false
   </div>
   {% assign projects = site.projects | sort: "order" %}
   <div class="work-grid">
-    {% for project in projects limit:3 %}
+    {% for project in projects %}
       <article class="work-card work-card--{{ project.tone }}">
         <div class="work-card__top"><span class="work-card__type">{{ project.category }}</span><span class="work-card__number">0{{ forloop.index }}</span></div>
         <div class="work-card__symbol work-card__symbol--{{ project.symbol }}" aria-hidden="true">
@@ -52,7 +52,8 @@ author_profile: false
   <div class="notes-card">
     <div class="notes-card__copy">
       <p class="eyebrow">A note I’m thinking through</p>
-      {% assign featured_article = site.posts.first %}
+      {% assign articles_by_date = site.posts | sort: "date" %}
+      {% assign featured_article = articles_by_date | last %}
       {% if featured_article %}
         <h2 id="notes-title">{{ featured_article.title }}</h2>
         <p>{{ featured_article.excerpt | strip_html | strip }}</p>

@@ -39,9 +39,9 @@ collections:
       - { label: Category, name: category, widget: string, hint: "For example, PowerPoint add-in or Excel tool." }
       - { label: Short description, name: excerpt, widget: text }
       - { label: Details, name: body, widget: markdown, required: false }
-      - { label: Project or product link, name: url, widget: string }
+      - { label: Project or product link, name: external_url, widget: string }
       - { label: Link label, name: link_label, widget: string, default: "Explore project" }
-      - { label: Display order, name: order, widget: number, value_type: int, min: 1, default: 10, hint: "Lower numbers appear first. The homepage features the first three." }
+      - { label: Display order, name: order, widget: number, value_type: int, min: 1, default: 10, hint: "Lower numbers appear first on both the homepage and Work & Projects page." }
       - label: Card color
         name: tone
         widget: select

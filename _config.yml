@@ -16,6 +16,14 @@ collections:
   projects:
     output: false
 
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      classes:
+        - article-page
+
 sass:
   style: compressed
 
