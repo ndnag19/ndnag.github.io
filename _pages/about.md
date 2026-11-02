@@ -10,9 +10,7 @@ permalink: /about/
 <section class="about-hero" aria-labelledby="about-hero-title">
   <div class="about-hero__copy">
     <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Healthcare · strategy · finance</p>
-    <h2 id="about-hero-title">I like turning complex questions into clear choices.</h2>
     <p>I am a finance and strategy professional with experience spanning transaction advisory, commercial due diligence, and valuation within the global biopharmaceutical industry.</p>
-    <img class="about-signature" src="/assets/images/dheerajnag-signature.png" alt="Dheerajnag's signature" width="320" height="179" loading="lazy">
   </div>
   <figure class="about-hero__portrait">
     <img src="/assets/images/dheerajnag-profile.png" alt="Dheerajnag Nelanutala in a dark suit" width="680" height="680" loading="lazy">
@@ -25,6 +23,8 @@ I began my career after graduating from the National Institute of Technology, Ti
 
 Through this website, I aim to share practical insights on financial modeling, due diligence, Excel productivity, and structured problem solving. My goal is to bridge the gap between academic finance concepts and their real-world application.
 
+<img class="about-signature" src="/assets/images/dheerajnag-signature.png" alt="Dheerajnag's signature" width="320" height="179" loading="lazy">
+</div>
 <section class="about-interests" aria-labelledby="about-interests-title">
   <div class="about-interests__heading">
     <p class="eyebrow">Beyond the day job</p>
