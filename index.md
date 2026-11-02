@@ -11,7 +11,7 @@ author_profile: false
 <section class="home-hero" aria-labelledby="home-title">
   <div class="home-hero__copy">
     <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Healthcare · strategy · finance · ideas</p>
-    <h1 id="home-title">Good work starts with <em>better questions.</em></h1>
+    <h1 id="home-title">I turn complex analysis into <em>practical strategy.</em></h1>
     <p class="home-hero__lead">Hi, I’m Dheerajnag. I work across healthcare, finance, and strategy—and I like making complex things a little easier to understand, use, and act on.</p>
     <div class="home-hero__actions">
       <a class="button button--solid" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
@@ -21,7 +21,6 @@ author_profile: false
   </div>
   <div class="home-hero__art">
     <img src="/assets/images/dheerajnag-profile.png" alt="Dheerajnag Nelanutala, wearing glasses and a dark suit" width="680" height="680" fetchpriority="high">
-    <div class="art-note"><span class="art-note__mark" aria-hidden="true">✳</span><span>Curious by<br>default</span></div>
   </div>
 </section>
 

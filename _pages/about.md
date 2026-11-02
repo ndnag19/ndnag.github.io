@@ -12,10 +12,10 @@ permalink: /about/
     <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Healthcare · strategy · finance</p>
     <h2 id="about-hero-title">I like turning complex questions into clear choices.</h2>
     <p>I am a finance and strategy professional with experience spanning transaction advisory, commercial due diligence, and valuation within the global biopharmaceutical industry.</p>
+    <img class="about-signature" src="/assets/images/dheerajnag-signature.png" alt="Dheerajnag's signature" width="320" height="179" loading="lazy">
   </div>
   <figure class="about-hero__portrait">
     <img src="/assets/images/dheerajnag-profile.png" alt="Dheerajnag Nelanutala in a dark suit" width="680" height="680" loading="lazy">
-    <figcaption>Curious by default</figcaption>
   </figure>
 </section>
 
