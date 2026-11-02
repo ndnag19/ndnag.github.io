@@ -10,7 +10,7 @@ permalink: /about/
 <section class="about-hero" aria-labelledby="about-hero-title">
   <div class="about-hero__copy">
     <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span> Healthcare · strategy · finance</p>
-    <p>I am a finance and strategy professional with experience spanning transaction advisory, commercial due diligence, and valuation within the global biopharmaceutical industry. <br> I work at the intersection of commercial and financial decisions.</p>
+    <p>I am a finance and strategy professional with experience spanning transaction advisory, commercial due diligence, and valuation within the global biopharmaceutical industry. <br> <br> I work at the intersection of commercial and financial decisions.</p>
   </div>
   <figure class="about-hero__portrait">
     <img src="/assets/images/dheerajnag-profile.png" alt="Dheerajnag Nelanutala in a dark suit" width="680" height="680" loading="lazy">
