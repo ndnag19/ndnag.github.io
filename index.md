@@ -17,6 +17,7 @@ author_profile: false
       <a class="button button--solid" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
       <a class="button button--quiet" href="#notes">Read my notes <span aria-hidden="true">↗</span></a>
     </div>
+    </div>
     <p class="home-hero__aside">A home for things I’ve worked on, things I’m learning, and the occasional useful tool.</p>
   </div>
   <div class="home-hero__art">
