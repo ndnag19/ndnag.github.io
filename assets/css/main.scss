@@ -233,21 +233,28 @@ body.layout--single.centered-page .page__content {
 }
 body.layout--single.centered-page .page__content { padding: 0 0 4rem; }
 body.layout--single.centered-page.projects-page #main > .page { max-width: 1240px; }
-/* Posts use a centered reading column without reserving space for the unused sidebar. */
+/* The custom article layout uses layout--article on body, not layout--single. */
+body.layout--article #main,
 body.layout--single.article-page #main {
   box-sizing: border-box; width: 100%; max-width: none; margin: 0 auto;
   padding: 0 clamp(1rem, 4vw, 3rem);
 }
-body.layout--single.article-page #main > .sidebar { display: none; }
+body.layout--article #main .sidebar,
+body.layout--single.article-page #main .sidebar { display: none; }
+body.layout--article #main > .page,
 body.layout--single.article-page #main > .page {
   display: block; float: none; box-sizing: border-box; width: 100%; max-width: 820px;
   margin: 0 auto; padding: 0;
 }
+body.layout--article .page__inner-wrap,
+body.layout--article .page__content,
 body.layout--single.article-page .page__inner-wrap,
 body.layout--single.article-page .page__content {
   float: none; width: 100%; max-width: none; margin: 0;
 }
+body.layout--article .page__content,
 body.layout--single.article-page .page__content { padding: 0 0 4rem; }
+body.layout--article .page__title { color: var(--ink); font-family: var(--serif); font-size: clamp(2.6rem, 5vw, 4rem); font-weight: 400; letter-spacing: -.04em; }
 .about-page .page__content > p { max-width: 760px; }
 .about-hero {
   display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(240px, .8fr); align-items: center;
