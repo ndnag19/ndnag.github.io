@@ -20,7 +20,7 @@ Same number on the screen. A very different crisis underneath.
 
 That gap is the whole story. Global bond yields have jumped, Asian currencies have slid, and 1997 keeps coming up. The question is fair: Asia delivers roughly two-thirds of world growth, so if its borrowers cannot fund themselves, everyone feels it. Here is why the comparison tempts us, and why it breaks down.
 
-## 1. The observation: why this selloff resembles 1997
+## Why this selloff resembles 1997
 
 HSBC's chief Asia economist, Fred Neumann, flagged three parallels on 31 August. We found a fourth.
 
@@ -35,7 +35,7 @@ HSBC's chief Asia economist, Fred Neumann, flagged three parallels on 31 August.
 
 On this evidence, markets are right to ask whether history is repeating.
 
-## 2. The diagnosis: same symptoms, different disease
+## Same symptoms, different disease
 
 Look at what is causing the pain and how it travels, and the match falls apart. There are three differences.
 
@@ -65,7 +65,7 @@ Korea's short-term dollar debt was above 300% of its reserves in late 1997. In t
 
 **So where does the pain land?**
 
-It has moved. In 1997 it landed on bank and corporate balance sheets. In 2026 it lands on household budgets, treasuries and central banks, and it falls unevenly. Chip exporters such as Korea and China saw their currencies rise. Oil importers with big deficits (the Philippines, Indonesia and India) took the hit. We call them the Fragile Three.
+It has moved. In 1997 it landed on bank and corporate balance sheets. In 2026 it lands on household budgets, treasuries and central banks, and it falls unevenly. Chip exporters such as Korea and China saw their currencies rise. Oil importers with big deficits (the Philippines, Indonesia and India) took the hit.
 
 ![](/assets/images/uploads/c4_fx.png "The region no longer trades as one block.")
 
@@ -74,9 +74,10 @@ It has moved. In 1997 it landed on bank and corporate balance sheets. In 2026 it
 * **Households:** fuel and food inflation. The Philippines forecasts 6.1% CPI this year.
 * **Treasuries:** costlier debt plus fuel subsidy bills, while Indonesia tries to hold its 3% deficit cap.
 * **Central banks:** economists estimate the RBI has sold about $75–80bn of reserves since June.
-  It is not all better. Thailand's current-account deficit reached 12% of GDP in the second quarter, wider than the 8% before 1997. That is why this is an echo and not a clean bill of health.
 
-## 3. The conclusion: three takeaways
+It is not all better. Thailand's current-account deficit reached 12% of GDP in the second quarter, wider than the 8% before 1997. That is why this is an echo and not a clean bill of health.
+
+## Three key takeaways
 
 **1. The echoes are real, but they describe the trigger.**
 Higher US and Japanese yields and a weak yen start the story. They do not decide how it ends.
