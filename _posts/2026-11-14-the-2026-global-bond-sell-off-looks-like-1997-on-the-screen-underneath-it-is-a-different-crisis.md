@@ -55,7 +55,8 @@ In 2026, currencies float. Instead of rates exploding, the currency falls. That 
 
 * **Then:** defend the peg, burn reserves, watch banks fail.
 * **Now:** let the currency adjust, hike modestly, keep growing.
-  **Difference 3: the dollar buffers are much thicker.**
+
+**Difference 3: the dollar buffers are much thicker.**
 
 Korea's short-term dollar debt was above 300% of its reserves in late 1997. In the second quarter of 2026 it was 46.5%. Thailand's reserves cover about 2.5 times its short-term external debt, whereas in 1997 it had pledged over $23bn in dollar forwards against $30bn of reserves.
 
