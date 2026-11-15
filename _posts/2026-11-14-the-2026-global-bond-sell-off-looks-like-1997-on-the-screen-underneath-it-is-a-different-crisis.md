@@ -37,7 +37,7 @@ On this evidence, markets are right to ask whether history is repeating.
 
 ## Same symptoms, different disease
 
-Look at what is causing the pain and how it travels, and the match falls apart. There are three differences.
+Looking at what is causing the pain and how it travels, reveals why the match falls apart. There are three differences.
 
 **Difference 1: the trigger is oil, not banks.**
 
@@ -47,7 +47,7 @@ The fuse was the Hormuz oil shock. Brent jumped 55% in March and touched $126 on
 
 > Roughly 90% of the rise in the US 10-year yield came from real yields.
 
-**Difference 2: the plumbing changed. Pegs then, floats now.**
+**Difference 2: Pegs then, floats now.**
 
 In 1997, currencies were pegged to the dollar. To hold a peg, central banks sold dollars and pushed rates sky-high. Indonesia's rate hit about 70%. Exports stalled, dollar-indebted banks cracked, and the peg broke anyway.
 
