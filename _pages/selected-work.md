@@ -13,25 +13,20 @@ I work on questions where the answer depends on more than a polished spreadsheet
 
 {% assign selected_work = site.selected_work | sort: "order" %}
 <div class="case-study-list">
-  {% for item in selected_work %}
-    <article class="case-study">
-      <header class="case-study__header">
-        <div class="case-study__heading">
-          {% if item.context %}<p class="eyebrow">{{ item.context }}</p>{% endif %}
-          <h3>{{ item.title }}</h3>
-          {% if item.summary %}<p class="case-study__summary">{{ item.summary }}</p>{% endif %}
-        </div>
-        <span class="case-study__number" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
-      </header>
-      <dl class="case-study__details">
-        {% if item.question %}<div><dt>The question</dt><dd>{{ item.question | markdownify }}</dd></div>{% endif %}
-        {% if item.challenge %}<div><dt>The challenge</dt><dd>{{ item.challenge | markdownify }}</dd></div>{% endif %}
-        {% if item.approach %}<div><dt>Approach</dt><dd>{{ item.approach | markdownify }}</dd></div>{% endif %}
-        {% if item.solution %}<div><dt>What I delivered</dt><dd>{{ item.solution | markdownify }}</dd></div>{% endif %}
-        {% if item.impact %}<div class="case-study__impact"><dt>Impact</dt><dd>{{ item.impact | markdownify }}</dd></div>{% endif %}
-      </dl>
-    </article>
+  {% for item in selected_work limit: 3 %}
+    {% include case-study.html item=item index=forloop.index %}
   {% endfor %}
+  {% if selected_work.size > 3 %}
+    <details class="case-study-more">
+      <summary><span class="case-study-more__more">Show more case studies</span><span class="case-study-more__less">Show fewer case studies</span><span aria-hidden="true">+</span></summary>
+      <div class="case-study-more__list">
+        {% for item in selected_work offset: 3 %}
+          {% assign display_index = forloop.index | plus: 3 %}
+          {% include case-study.html item=item index=display_index %}
+        {% endfor %}
+      </div>
+    </details>
+  {% endif %}
 </div>
 
 <section class="projects-listing" aria-labelledby="projects-title">

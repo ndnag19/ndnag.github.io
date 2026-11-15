@@ -1,0 +1,23 @@
+{% assign display_index = include.index | default: 1 %}
+<article class="case-study">
+  <header class="case-study__header">
+    <div class="case-study__heading">
+      {% if include.item.context %}<p class="eyebrow">{{ include.item.context }}</p>{% endif %}
+      <h3>{{ include.item.title }}</h3>
+      {% if include.item.summary %}<p class="case-study__summary">{{ include.item.summary }}</p>{% endif %}
+    </div>
+    <span class="case-study__number" aria-hidden="true">{% if display_index < 10 %}0{% endif %}{{ display_index }}</span>
+  </header>
+  {% if include.item.question or include.item.challenge or include.item.approach or include.item.solution or include.item.impact %}
+    <details class="case-study__more">
+      <summary><span class="case-study__more-open">Read more</span><span class="case-study__more-close">Close case study</span><span aria-hidden="true">↘</span></summary>
+      <dl class="case-study__details">
+        {% if include.item.question %}<div><dt>The question</dt><dd>{{ include.item.question | markdownify }}</dd></div>{% endif %}
+        {% if include.item.challenge %}<div><dt>The challenge</dt><dd>{{ include.item.challenge | markdownify }}</dd></div>{% endif %}
+        {% if include.item.approach %}<div><dt>Approach</dt><dd>{{ include.item.approach | markdownify }}</dd></div>{% endif %}
+        {% if include.item.solution %}<div><dt>What I delivered</dt><dd>{{ include.item.solution | markdownify }}</dd></div>{% endif %}
+        {% if include.item.impact %}<div class="case-study__impact"><dt>Impact</dt><dd>{{ include.item.impact | markdownify }}</dd></div>{% endif %}
+      </dl>
+    </details>
+  {% endif %}
+</article>
