@@ -20,7 +20,7 @@ Same number on the screen. A very different crisis underneath.
 
 That gap is the whole story. Global bond yields have jumped, Asian currencies have slid, and 1997 keeps coming up. The question is fair: Asia delivers roughly two-thirds of world growth, so if its borrowers cannot fund themselves, everyone feels it. Here is why the comparison tempts us, and why it breaks down.
 
-## Why this selloff resembles 1997
+## Why this sell-off resembles 1997
 
 HSBC's chief Asia economist, Fred Neumann, flagged three parallels on 31 August. We found a fourth.
 
