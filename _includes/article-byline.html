@@ -1,0 +1,4 @@
+{% assign article = include.post | default: page %}
+<p class="article-byline">
+  <span>By {{ site.author.name }}</span>{% if article.contributors and article.contributors.size > 0 %}<span class="article-byline__separator"> · With </span>{% for contributor in article.contributors %}{% if contributor.url %}<a href="{{ contributor.url }}" target="_blank" rel="noopener noreferrer">{{ contributor.name }}</a>{% else %}<span>{{ contributor.name }}</span>{% endif %}{% unless forloop.last %}<span>, </span>{% endunless %}{% endfor %}{% endif %}
+</p>

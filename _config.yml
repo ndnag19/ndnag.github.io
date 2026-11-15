@@ -15,6 +15,8 @@ minimal_mistakes_skin: "default"
 collections:
   projects:
     output: false
+  selected_work:
+    output: false
 
 defaults:
   - scope:
@@ -22,6 +24,7 @@ defaults:
       type: "posts"
     values:
       published: true
+      layout: article
       classes:
         - article-page
 

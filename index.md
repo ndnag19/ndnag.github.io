@@ -32,10 +32,11 @@ author_profile: false
   {% assign projects = site.projects | sort: "order" %}
   <div class="work-grid">
     {% for project in projects %}
-      <article class="work-card work-card--{{ project.tone }}">
+      <article class="work-card work-card--{{ project.tone }}" style="{% if project.card_background %}--card-background: {{ project.card_background }};{% endif %}{% if project.card_accent %}--card-accent: {{ project.card_accent }};{% endif %}">
         <div class="work-card__top"><span class="work-card__type">{{ project.category }}</span><span class="work-card__number">0{{ forloop.index }}</span></div>
         <div class="work-card__symbol work-card__symbol--{{ project.symbol }}" aria-hidden="true">
-          {% if project.symbol == "pan" %}<span></span><span></span><span></span><span></span>
+          {% if project.card_image %}<img src="{{ project.card_image | relative_url }}" alt="">
+          {% elsif project.symbol == "pan" %}<span></span><span></span><span></span><span></span>
           {% elsif project.symbol == "gantt" %}<span></span><span></span><span></span><span></span>
           {% else %}<span>↗</span><span>↘</span><span>→</span>{% endif %}
         </div>
@@ -54,6 +55,7 @@ author_profile: false
       {% assign featured_article = site.posts | first %}
       {% if featured_article %}
         <h2 id="notes-title">{{ featured_article.title }}</h2>
+        {% include article-byline.html post=featured_article %}
         <p>{{ featured_article.excerpt | strip_html | strip }}</p>
         <a class="button button--outline" href="{{ featured_article.url | relative_url }}">Read this note <span aria-hidden="true">↗</span></a>
       {% else %}

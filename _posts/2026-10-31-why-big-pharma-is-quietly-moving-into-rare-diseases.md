@@ -4,7 +4,7 @@ date: 2026-11-01
 excerpt: Most healthcare headlines this year are about weight-loss drugs and big
   cancer partnerships. Meanwhile, rare disease deals have been piling up.
 image: ""
-layout: single
+layout: article
 published: true
 ---
 In 2026, 9 of the 44 biopharma buyouts worth $1 billion or more were for rare disease companies. They include Vertex’s $10.0 billion purchase of Crinetics Pharmaceuticals and the roughly €10.7 billion take-private of Recordati.
