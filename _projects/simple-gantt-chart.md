@@ -7,7 +7,7 @@ external_url: https://github.com/ndnag19/SimpleGanttChart
 link_label: SimpleGanttChart on GitHub
 order: 2
 card_background: "#efe5dd"
-card_accent: "#cb4154"
+card_accent: "#2b2119"
 symbol: gantt
 tone: clay
 ---
