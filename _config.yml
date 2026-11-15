@@ -6,6 +6,9 @@ url: "https://ndnag.com"
 baseurl: ""
 permalink: /articles/:title/
 
+atom_feed:
+  hide: true
+
 include:
   - _pages
 
